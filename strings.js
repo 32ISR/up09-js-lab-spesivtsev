@@ -11,3 +11,6 @@ const info = `Студент ${stname}, группа ${group}, средний б
 console.log(info)
 
 // 3
+const date = "2025-03-15"
+const splitdate = split(date)
+console.log(splitdate)
