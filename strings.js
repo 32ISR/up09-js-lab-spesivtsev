@@ -11,6 +11,12 @@ const info = `Студент ${stname}, группа ${group}, средний б
 console.log(info)
 
 // 3
-const date = "2025-03-15"
-const splitdate = split(date)
-console.log(splitdate)
+const [y, m, d] = '2025-03-18'.split('-')
+console.log(`${d}.${m}.${y}`)
+
+// 4
+const str = "Node.js разработчик"
+console.log(str.startsWith('Node') && str.endsWith('разработчик'))
+
+// 5
+console.log(String(42).padStart(8, '0'))
